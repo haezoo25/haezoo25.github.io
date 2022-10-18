@@ -1,8 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Arimo:400|Raleway:300,400,700&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Arimo:400|Raleway:300,400,700&display=swap"); */
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+* { font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
 body {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 30px;
   font-weight: 300;
   position: relative;
@@ -1145,7 +1147,7 @@ a, a:hover {
 }
 
 .lead {
-  font-size: 18px;
+  font-size: 15px;
   line-height: 30px;
 }
 
@@ -1312,7 +1314,7 @@ figure.dotted-bg:before {
 }
 
 .feature-v1 p {
-  font-size: 16px;
+  font-size: 13px;
 }
 
 .counter-v1 .number-wrap {
