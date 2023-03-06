@@ -530,7 +530,8 @@ a {
       background: -webkit-gradient(linear, left top, left bottom, color-stop(79%, rgba(0, 0, 0, 0)), color-stop(80%, rgba(0, 0, 0, 0.05)), to(black));
       background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 79%, rgba(0, 0, 0, 0.05) 80%, black 100%);
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 ); }
-  .cover-v1.overlay {
+  
+      .cover-v1.overlay {
     position: relative; }
     .cover-v1.overlay:before {
       z-index: 9;
@@ -541,18 +542,23 @@ a {
       bottom: 0;
       content: "";
       background: rgba(0, 0, 0, 0.4); }
+
     .cover-v1.overlay .mbYTP_wrapper {
       z-index: -1; }
+
   .cover-v1 .container {
     z-index: 9;
     position: relative; }
+
     .cover-v1 .container, .cover-v1 .container > .row {
       height: 100vh;
       min-height: 650px; }
+
   .cover-v1 .heading {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 900;
     color: #fff; }
+
     @media (max-width: 991.98px) {
       .cover-v1 .heading {
         font-size: 2rem; } }
@@ -560,6 +566,7 @@ a {
     font-weight: 900;
     color: #fff;
     font-size: 4rem; }
+
     @media (max-width: 991.98px) {
       .cover-v1 .blog-heading {
         font-size: 2rem; } }
@@ -568,6 +575,7 @@ a {
   .cover-v1 .subheading {
     font-size: 33px;
     color: #fff; }
+
     @media (max-width: 991.98px) {
       .cover-v1 .subheading {
         font-size: 24px; } }
